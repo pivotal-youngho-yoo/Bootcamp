@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756AE97419B9E6A300CEC7C4 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AE97319B9E6A300CEC7C4 /* Team.m */; };
+		756AE9A119B9F22200CEC7C4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2A18AA19AEAB840013B692 /* SenTestingKit.framework */; };
+		756AE9A219B9F22200CEC7C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */; };
+		756AE9A319B9F22200CEC7C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
+		756AE9A419B9F22200CEC7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
+		756AE9AA19B9F22200CEC7C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 756AE9A819B9F22200CEC7C4 /* InfoPlist.strings */; };
+		756AE9AC19B9F22200CEC7C4 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 756AE9AB19B9F22200CEC7C4 /* ExampleSpec.mm */; };
+		756AE9AF19B9F22300CEC7C4 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756AE9AE19B9F22300CEC7C4 /* Cedar-iOS.framework */; };
+		756AE9B619BA0C6900CEC7C4 /* GameInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AE9B519BA0C6900CEC7C4 /* GameInfoViewController.m */; };
+		ED2A18AB19AEAB840013B692 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2A18AA19AEAB840013B692 /* SenTestingKit.framework */; };
+		ED2A18AC19AEAB840013B692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */; };
+		ED2A18AD19AEAB840013B692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
+		ED2A18AE19AEAB840013B692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
+		ED4B34E219AE7DD500FF635F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
+		ED4B34E419AE7DD500FF635F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */; };
+		ED4B34E619AE7DD500FF635F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
+		ED4B34EC19AE7DD500FF635F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED4B34EA19AE7DD500FF635F /* InfoPlist.strings */; };
+		ED4B34EE19AE7DD500FF635F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B34ED19AE7DD500FF635F /* main.m */; };
+		ED4B34F219AE7DD500FF635F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B34F119AE7DD500FF635F /* AppDelegate.m */; };
+		ED4B34F419AE7DD500FF635F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4B34F319AE7DD500FF635F /* Images.xcassets */; };
+		ED4B34FB19AE7DD500FF635F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34FA19AE7DD500FF635F /* XCTest.framework */; };
+		ED4B34FC19AE7DD500FF635F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
+		ED4B34FD19AE7DD500FF635F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
+		ED4B350519AE7DD500FF635F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED4B350319AE7DD500FF635F /* InfoPlist.strings */; };
+		ED4B350719AE7DD500FF635F /* FootballScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B350619AE7DD500FF635F /* FootballScheduleTests.m */; };
+		EDAF699F19AEC96A002A65FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAF699E19AEC96A002A65FA /* Main.storyboard */; };
+		EDAF69A219AED026002A65FA /* ScheduleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAF69A119AED026002A65FA /* ScheduleListTableViewController.m */; };
+		EDAF69A519AEDC6B002A65FA /* ScheduledGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAF69A419AEDC6B002A65FA /* ScheduledGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4B34FE19AE7DD500FF635F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4B34D619AE7DD500FF635F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4B34DD19AE7DD500FF635F;
+			remoteInfo = FootballSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756AE97319B9E6A300CEC7C4 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		756AE97519B9E6A900CEC7C4 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		756AE9A019B9F22200CEC7C4 /* Testing.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Testing.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756AE9A719B9F22200CEC7C4 /* Testing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testing-Info.plist"; sourceTree = "<group>"; };
+		756AE9A919B9F22200CEC7C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		756AE9AB19B9F22200CEC7C4 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		756AE9AD19B9F22200CEC7C4 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		756AE9AE19B9F22300CEC7C4 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		756AE9B019B9F22300CEC7C4 /* Testing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testing-Prefix.pch"; sourceTree = "<group>"; };
+		756AE9B419BA0C6900CEC7C4 /* GameInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoViewController.h; sourceTree = "<group>"; };
+		756AE9B519BA0C6900CEC7C4 /* GameInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoViewController.m; sourceTree = "<group>"; };
+		ED2A18A919AEAB840013B692 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2A18AA19AEAB840013B692 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED4B34DE19AE7DD500FF635F /* FootballSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4B34E119AE7DD500FF635F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED4B34E519AE7DD500FF635F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED4B34E919AE7DD500FF635F /* FootballSchedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootballSchedule-Info.plist"; sourceTree = "<group>"; };
+		ED4B34EB19AE7DD500FF635F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED4B34ED19AE7DD500FF635F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4B34EF19AE7DD500FF635F /* FootballSchedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FootballSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		ED4B34F019AE7DD500FF635F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4B34F119AE7DD500FF635F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4B34F319AE7DD500FF635F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED4B34F919AE7DD500FF635F /* FootballScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4B34FA19AE7DD500FF635F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED4B350219AE7DD500FF635F /* FootballScheduleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootballScheduleTests-Info.plist"; sourceTree = "<group>"; };
+		ED4B350419AE7DD500FF635F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED4B350619AE7DD500FF635F /* FootballScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballScheduleTests.m; sourceTree = "<group>"; };
+		EDAF699E19AEC96A002A65FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EDAF69A019AED026002A65FA /* ScheduleListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleListTableViewController.h; sourceTree = "<group>"; };
+		EDAF69A119AED026002A65FA /* ScheduleListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleListTableViewController.m; sourceTree = "<group>"; };
+		EDAF69A319AEDC6B002A65FA /* ScheduledGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduledGame.h; path = ../ScheduledGame.h; sourceTree = "<group>"; };
+		EDAF69A419AEDC6B002A65FA /* ScheduledGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduledGame.m; path = ../ScheduledGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756AE99C19B9F22200CEC7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756AE9A219B9F22200CEC7C4 /* CoreGraphics.framework in Frameworks */,
+				756AE9A319B9F22200CEC7C4 /* UIKit.framework in Frameworks */,
+				756AE9AF19B9F22300CEC7C4 /* Cedar-iOS.framework in Frameworks */,
+				756AE9A119B9F22200CEC7C4 /* SenTestingKit.framework in Frameworks */,
+				756AE9A419B9F22200CEC7C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2A18A519AEAB840013B692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2A18AC19AEAB840013B692 /* CoreGraphics.framework in Frameworks */,
+				ED2A18AD19AEAB840013B692 /* UIKit.framework in Frameworks */,
+				ED2A18AB19AEAB840013B692 /* SenTestingKit.framework in Frameworks */,
+				ED2A18AE19AEAB840013B692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34DB19AE7DD500FF635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B34E419AE7DD500FF635F /* CoreGraphics.framework in Frameworks */,
+				ED4B34E619AE7DD500FF635F /* UIKit.framework in Frameworks */,
+				ED4B34E219AE7DD500FF635F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34F619AE7DD500FF635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B34FB19AE7DD500FF635F /* XCTest.framework in Frameworks */,
+				ED4B34FD19AE7DD500FF635F /* UIKit.framework in Frameworks */,
+				ED4B34FC19AE7DD500FF635F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756AE9A519B9F22200CEC7C4 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				756AE9AB19B9F22200CEC7C4 /* ExampleSpec.mm */,
+				756AE9AD19B9F22200CEC7C4 /* Rakefile */,
+				756AE9AE19B9F22300CEC7C4 /* Cedar-iOS.framework */,
+				756AE9A619B9F22200CEC7C4 /* Supporting Files */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		756AE9A619B9F22200CEC7C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756AE9A719B9F22200CEC7C4 /* Testing-Info.plist */,
+				756AE9A819B9F22200CEC7C4 /* InfoPlist.strings */,
+				756AE9B019B9F22300CEC7C4 /* Testing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4B34D519AE7DD500FF635F = {
+			isa = PBXGroup;
+			children = (
+				ED4B34E719AE7DD500FF635F /* FootballSchedule */,
+				ED4B350019AE7DD500FF635F /* FootballScheduleTests */,
+				756AE9A519B9F22200CEC7C4 /* Testing */,
+				ED4B34E019AE7DD500FF635F /* Frameworks */,
+				ED4B34DF19AE7DD500FF635F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4B34DF19AE7DD500FF635F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B34DE19AE7DD500FF635F /* FootballSchedule.app */,
+				ED4B34F919AE7DD500FF635F /* FootballScheduleTests.xctest */,
+				ED2A18A919AEAB840013B692 /* Specs.octest */,
+				756AE9A019B9F22200CEC7C4 /* Testing.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4B34E019AE7DD500FF635F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B34E119AE7DD500FF635F /* Foundation.framework */,
+				ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */,
+				ED4B34E519AE7DD500FF635F /* UIKit.framework */,
+				ED4B34FA19AE7DD500FF635F /* XCTest.framework */,
+				ED2A18AA19AEAB840013B692 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4B34E719AE7DD500FF635F /* FootballSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				EDAF69A319AEDC6B002A65FA /* ScheduledGame.h */,
+				EDAF69A419AEDC6B002A65FA /* ScheduledGame.m */,
+				ED4B34F019AE7DD500FF635F /* AppDelegate.h */,
+				ED4B34F119AE7DD500FF635F /* AppDelegate.m */,
+				EDAF699E19AEC96A002A65FA /* Main.storyboard */,
+				756AE9B419BA0C6900CEC7C4 /* GameInfoViewController.h */,
+				756AE9B519BA0C6900CEC7C4 /* GameInfoViewController.m */,
+				EDAF69A019AED026002A65FA /* ScheduleListTableViewController.h */,
+				EDAF69A119AED026002A65FA /* ScheduleListTableViewController.m */,
+				756AE97519B9E6A900CEC7C4 /* Team.h */,
+				756AE97319B9E6A300CEC7C4 /* Team.m */,
+				ED4B34F319AE7DD500FF635F /* Images.xcassets */,
+				ED4B34E819AE7DD500FF635F /* Supporting Files */,
+			);
+			path = FootballSchedule;
+			sourceTree = "<group>";
+		};
+		ED4B34E819AE7DD500FF635F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B34E919AE7DD500FF635F /* FootballSchedule-Info.plist */,
+				ED4B34EA19AE7DD500FF635F /* InfoPlist.strings */,
+				ED4B34ED19AE7DD500FF635F /* main.m */,
+				ED4B34EF19AE7DD500FF635F /* FootballSchedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4B350019AE7DD500FF635F /* FootballScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B350619AE7DD500FF635F /* FootballScheduleTests.m */,
+				ED4B350119AE7DD500FF635F /* Supporting Files */,
+			);
+			path = FootballScheduleTests;
+			sourceTree = "<group>";
+		};
+		ED4B350119AE7DD500FF635F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B350219AE7DD500FF635F /* FootballScheduleTests-Info.plist */,
+				ED4B350319AE7DD500FF635F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756AE99F19B9F22200CEC7C4 /* Testing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756AE9B319B9F22300CEC7C4 /* Build configuration list for PBXNativeTarget "Testing" */;
+			buildPhases = (
+				756AE99B19B9F22200CEC7C4 /* Sources */,
+				756AE99C19B9F22200CEC7C4 /* Frameworks */,
+				756AE99D19B9F22200CEC7C4 /* Resources */,
+				756AE99E19B9F22200CEC7C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testing;
+			productName = Testing;
+			productReference = 756AE9A019B9F22200CEC7C4 /* Testing.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ED2A18A819AEAB840013B692 /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2A18BD19AEAB840013B692 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				ED2A18A419AEAB840013B692 /* Sources */,
+				ED2A18A519AEAB840013B692 /* Frameworks */,
+				ED2A18A619AEAB840013B692 /* Resources */,
+				ED2A18A719AEAB840013B692 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = ED2A18A919AEAB840013B692 /* Specs.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ED4B34DD19AE7DD500FF635F /* FootballSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4B350A19AE7DD500FF635F /* Build configuration list for PBXNativeTarget "FootballSchedule" */;
+			buildPhases = (
+				ED4B34DA19AE7DD500FF635F /* Sources */,
+				ED4B34DB19AE7DD500FF635F /* Frameworks */,
+				ED4B34DC19AE7DD500FF635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballSchedule;
+			productName = FootballSchedule;
+			productReference = ED4B34DE19AE7DD500FF635F /* FootballSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4B34F819AE7DD500FF635F /* FootballScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4B350D19AE7DD500FF635F /* Build configuration list for PBXNativeTarget "FootballScheduleTests" */;
+			buildPhases = (
+				ED4B34F519AE7DD500FF635F /* Sources */,
+				ED4B34F619AE7DD500FF635F /* Frameworks */,
+				ED4B34F719AE7DD500FF635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4B34FF19AE7DD500FF635F /* PBXTargetDependency */,
+			);
+			name = FootballScheduleTests;
+			productName = FootballScheduleTests;
+			productReference = ED4B34F919AE7DD500FF635F /* FootballScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4B34D619AE7DD500FF635F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					ED4B34F819AE7DD500FF635F = {
+						TestTargetID = ED4B34DD19AE7DD500FF635F;
+					};
+				};
+			};
+			buildConfigurationList = ED4B34D919AE7DD500FF635F /* Build configuration list for PBXProject "FootballSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED4B34D519AE7DD500FF635F;
+			productRefGroup = ED4B34DF19AE7DD500FF635F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4B34DD19AE7DD500FF635F /* FootballSchedule */,
+				ED4B34F819AE7DD500FF635F /* FootballScheduleTests */,
+				ED2A18A819AEAB840013B692 /* Specs */,
+				756AE99F19B9F22200CEC7C4 /* Testing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756AE99D19B9F22200CEC7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756AE9AA19B9F22200CEC7C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2A18A619AEAB840013B692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34DC19AE7DD500FF635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAF699F19AEC96A002A65FA /* Main.storyboard in Resources */,
+				ED4B34EC19AE7DD500FF635F /* InfoPlist.strings in Resources */,
+				ED4B34F419AE7DD500FF635F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34F719AE7DD500FF635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B350519AE7DD500FF635F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		756AE99E19B9F22200CEC7C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		ED2A18A719AEAB840013B692 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756AE99B19B9F22200CEC7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756AE9AC19B9F22200CEC7C4 /* ExampleSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2A18A419AEAB840013B692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34DA19AE7DD500FF635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756AE97419B9E6A300CEC7C4 /* Team.m in Sources */,
+				ED4B34F219AE7DD500FF635F /* AppDelegate.m in Sources */,
+				EDAF69A519AEDC6B002A65FA /* ScheduledGame.m in Sources */,
+				EDAF69A219AED026002A65FA /* ScheduleListTableViewController.m in Sources */,
+				756AE9B619BA0C6900CEC7C4 /* GameInfoViewController.m in Sources */,
+				ED4B34EE19AE7DD500FF635F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4B34F519AE7DD500FF635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4B350719AE7DD500FF635F /* FootballScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4B34FF19AE7DD500FF635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4B34DD19AE7DD500FF635F /* FootballSchedule */;
+			targetProxy = ED4B34FE19AE7DD500FF635F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756AE9A819B9F22200CEC7C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756AE9A919B9F22200CEC7C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED4B34EA19AE7DD500FF635F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4B34EB19AE7DD500FF635F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED4B350319AE7DD500FF635F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4B350419AE7DD500FF635F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756AE9B119B9F22300CEC7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Testing/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testing/Testing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Testing/Testing-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		756AE9B219B9F22300CEC7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Testing/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testing/Testing-Prefix.pch";
+				INFOPLIST_FILE = "Testing/Testing-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		ED2A18BB19AEAB840013B692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ED2A18BC19AEAB840013B692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		ED4B350819AE7DD500FF635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4B350919AE7DD500FF635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4B350B19AE7DD500FF635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballSchedule/FootballSchedule-Prefix.pch";
+				INFOPLIST_FILE = "FootballSchedule/FootballSchedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED4B350C19AE7DD500FF635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballSchedule/FootballSchedule-Prefix.pch";
+				INFOPLIST_FILE = "FootballSchedule/FootballSchedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED4B350E19AE7DD500FF635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballSchedule/FootballSchedule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FootballScheduleTests/FootballScheduleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED4B350F19AE7DD500FF635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballSchedule.app/FootballSchedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballSchedule/FootballSchedule-Prefix.pch";
+				INFOPLIST_FILE = "FootballScheduleTests/FootballScheduleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756AE9B319B9F22300CEC7C4 /* Build configuration list for PBXNativeTarget "Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756AE9B119B9F22300CEC7C4 /* Debug */,
+				756AE9B219B9F22300CEC7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2A18BD19AEAB840013B692 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2A18BB19AEAB840013B692 /* Debug */,
+				ED2A18BC19AEAB840013B692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B34D919AE7DD500FF635F /* Build configuration list for PBXProject "FootballSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B350819AE7DD500FF635F /* Debug */,
+				ED4B350919AE7DD500FF635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B350A19AE7DD500FF635F /* Build configuration list for PBXNativeTarget "FootballSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B350B19AE7DD500FF635F /* Debug */,
+				ED4B350C19AE7DD500FF635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4B350D19AE7DD500FF635F /* Build configuration list for PBXNativeTarget "FootballScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4B350E19AE7DD500FF635F /* Debug */,
+				ED4B350F19AE7DD500FF635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4B34D619AE7DD500FF635F /* Project object */;
+}
