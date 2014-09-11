@@ -1,9 +1,7 @@
+#import <Cedar/Cedar.h>
+
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
-#import "ScheduledGame.h"
-#import "Team.h"
-#import "ScheduleListTableViewController.h"
-#import "TeamRequestManager.h"
 
 SPEC_BEGIN(ExampleSpec)
 
@@ -35,34 +33,6 @@ describe(@"Example specs on NSString", ^{
             [NSMutableString string] should be_instance_of([NSString class]).or_any_subclass();
         });
     });
-});
-
-describe(@"test team object", ^{
-    it(@"initalizes properly",
-       ^{
-           NSString *name = @"Warriors";
-           NSString *teamid = @"WW";
-           NSString *market = @"University of Waterloo";
-           NSNumber *rank = @1;
-           Team *exampleTeam = [[Team alloc] initWithTeamId:teamid teamName:name teamMarket:market rank:rank];
-           exampleTeam should be_instance_of([Team class]);
-           [exampleTeam.teamName isEqualToString:name] should be_truthy;
-           [exampleTeam.teamId isEqualToString:teamid] should be_truthy;
-           [exampleTeam.teamMarket isEqualToString:market] should be_truthy;
-           [exampleTeam.rank isEqualToNumber:rank] should be_truthy;
-           
-           
-       });
-});
-
-describe(@"test getTeamRequest", ^{
-    it(@"gets httpRequest", ^{
-       
-        TeamRequestManager *manager = [[TeamRequestManager alloc]init];
-        [manager makeRequest];
-        
-    });
-    
 });
 
 SPEC_END

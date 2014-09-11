@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9BB8E811-AF9A-4557-8635-BFE9B045B973</string>
+	<string>15679B7B-80FE-4778-9CA7-483403AC79E5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FootballSchedule</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3D01AA68-EED4-4CA2-BF5D-25DBBC603921</key>
-		<string>https://github.com/pivotal-youngho-yoo/BootcampIOS.git</string>
+		<key>1B6496BA-369A-493D-8E94-A640E901FE56</key>
+		<string>https://github.com/pivotal-youngho-yoo/Bootcamp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FootballSchedule.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3D01AA68-EED4-4CA2-BF5D-25DBBC603921</key>
+		<key>1B6496BA-369A-493D-8E94-A640E901FE56</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/pivotal-youngho-yoo/BootcampIOS.git</string>
+	<string>https://github.com/pivotal-youngho-yoo/Bootcamp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3D01AA68-EED4-4CA2-BF5D-25DBBC603921</string>
+	<string>1B6496BA-369A-493D-8E94-A640E901FE56</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3D01AA68-EED4-4CA2-BF5D-25DBBC603921</string>
+			<string>1B6496BA-369A-493D-8E94-A640E901FE56</string>
 			<key>IDESourceControlWCCName</key>
-			<string>NCAAFootballSchedule</string>
+			<string>Bootcamp</string>
 		</dict>
 	</array>
 </dict>
