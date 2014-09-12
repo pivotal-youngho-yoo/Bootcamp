@@ -1,0 +1,31 @@
+{
+    "id":"AP25",
+    "name":"Associated Press Top 25",
+    "season":2013,
+    "season_type":"REG",
+    "week":2,
+    "rankings":[
+                {
+                "id":"BAMA",
+                "name":"Crimson Tide",
+                "market":"Alabama",
+                "rank":1,
+                "points":1497,
+                "fp_votes":58,
+                "wins":1,
+                "losses":0,
+                "ties":0
+                }
+                ],
+    "candidates":[
+                  {
+                  "id":"MFL",
+                  "name":"Hurricanes",
+                  "market":"Miami (FL)",
+                  "votes":127,
+                  "wins":1,
+                  "losses":0,
+                  "ties":0
+                  }
+                  ]
+}

@@ -16,6 +16,15 @@
 		ED143D6F19C13F7A002E2EDD /* ScheduleServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED143D6E19C13F7A002E2EDD /* ScheduleServiceParser.m */; };
 		ED143D7219C14A17002E2EDD /* AllTeamNamesService.m in Sources */ = {isa = PBXBuildFile; fileRef = ED143D7119C14A17002E2EDD /* AllTeamNamesService.m */; };
 		ED143D7519C14A33002E2EDD /* AllTeamNamesServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED143D7419C14A33002E2EDD /* AllTeamNamesServiceParser.m */; };
+		ED143D7819C15A28002E2EDD /* TopTeamsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D7719C15A28002E2EDD /* TopTeamsJSON.json */; };
+		ED143D7E19C15D0F002E2EDD /* TopTeamServiceParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED143D7D19C15D0F002E2EDD /* TopTeamServiceParserSpec.mm */; };
+		ED143D7F19C2B49A002E2EDD /* TopTeamsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D7719C15A28002E2EDD /* TopTeamsJSON.json */; };
+		ED143D8119C2B586002E2EDD /* ScheduleJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D8019C2B586002E2EDD /* ScheduleJSON.json */; };
+		ED143D8519C2B6A7002E2EDD /* ScheduleServiceParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED143D8419C2B6A7002E2EDD /* ScheduleServiceParserSpec.mm */; };
+		ED143D8619C2B743002E2EDD /* ScheduleJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D8019C2B586002E2EDD /* ScheduleJSON.json */; };
+		ED143D8819C2BB05002E2EDD /* AllTeamNamesServiceParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED143D8719C2BB05002E2EDD /* AllTeamNamesServiceParserSpec.mm */; };
+		ED143D8D19C2BD57002E2EDD /* AllTeamNamesJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D8C19C2BD57002E2EDD /* AllTeamNamesJSON.json */; };
+		ED143D8E19C2BD70002E2EDD /* AllTeamNamesJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = ED143D8C19C2BD57002E2EDD /* AllTeamNamesJSON.json */; };
 		ED4B34E219AE7DD500FF635F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
 		ED4B34E419AE7DD500FF635F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E319AE7DD500FF635F /* CoreGraphics.framework */; };
 		ED4B34E619AE7DD500FF635F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
@@ -28,7 +37,6 @@
 		ED96B87E19BFFE7400CC5398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E519AE7DD500FF635F /* UIKit.framework */; };
 		ED96B87F19BFFE7400CC5398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4B34E119AE7DD500FF635F /* Foundation.framework */; };
 		ED96B88519BFFE7400CC5398 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED96B88319BFFE7400CC5398 /* InfoPlist.strings */; };
-		ED96B88719BFFE7400CC5398 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED96B88619BFFE7400CC5398 /* ExampleSpec.mm */; };
 		EDAF699F19AEC96A002A65FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAF699E19AEC96A002A65FA /* Main.storyboard */; };
 		EDAF69A219AED026002A65FA /* ScheduleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAF69A119AED026002A65FA /* ScheduleListTableViewController.m */; };
 		EDAF69A519AEDC6B002A65FA /* ScheduledGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAF69A419AEDC6B002A65FA /* ScheduledGame.m */; };
@@ -53,6 +61,12 @@
 		ED143D7119C14A17002E2EDD /* AllTeamNamesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllTeamNamesService.m; path = Services/AllTeamNamesService.m; sourceTree = "<group>"; };
 		ED143D7319C14A33002E2EDD /* AllTeamNamesServiceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllTeamNamesServiceParser.h; path = Services/AllTeamNamesServiceParser.h; sourceTree = "<group>"; };
 		ED143D7419C14A33002E2EDD /* AllTeamNamesServiceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllTeamNamesServiceParser.m; path = Services/AllTeamNamesServiceParser.m; sourceTree = "<group>"; };
+		ED143D7719C15A28002E2EDD /* TopTeamsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TopTeamsJSON.json; path = Fixtures/TopTeamsJSON.json; sourceTree = "<group>"; };
+		ED143D7D19C15D0F002E2EDD /* TopTeamServiceParserSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TopTeamServiceParserSpec.mm; path = Services/TopTeamServiceParserSpec.mm; sourceTree = "<group>"; };
+		ED143D8019C2B586002E2EDD /* ScheduleJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ScheduleJSON.json; sourceTree = "<group>"; };
+		ED143D8419C2B6A7002E2EDD /* ScheduleServiceParserSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ScheduleServiceParserSpec.mm; path = Services/ScheduleServiceParserSpec.mm; sourceTree = "<group>"; };
+		ED143D8719C2BB05002E2EDD /* AllTeamNamesServiceParserSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AllTeamNamesServiceParserSpec.mm; path = Services/AllTeamNamesServiceParserSpec.mm; sourceTree = "<group>"; };
+		ED143D8C19C2BD57002E2EDD /* AllTeamNamesJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllTeamNamesJSON.json; sourceTree = "<group>"; };
 		ED2A18AA19AEAB840013B692 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED4B34DE19AE7DD500FF635F /* FootballSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4B34E119AE7DD500FF635F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,7 +83,6 @@
 		ED96B87B19BFFE7400CC5398 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96B88219BFFE7400CC5398 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		ED96B88419BFFE7400CC5398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ED96B88619BFFE7400CC5398 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
 		ED96B88819BFFE7400CC5398 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		ED96B88919BFFE7400CC5398 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		EDAF699E19AEC96A002A65FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -115,6 +128,9 @@
 		ED143D6219C12878002E2EDD /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				ED143D7D19C15D0F002E2EDD /* TopTeamServiceParserSpec.mm */,
+				ED143D8419C2B6A7002E2EDD /* ScheduleServiceParserSpec.mm */,
+				ED143D8719C2BB05002E2EDD /* AllTeamNamesServiceParserSpec.mm */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -124,6 +140,16 @@
 			children = (
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		ED143D7619C159DB002E2EDD /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				ED143D7719C15A28002E2EDD /* TopTeamsJSON.json */,
+				ED143D8019C2B586002E2EDD /* ScheduleJSON.json */,
+				ED143D8C19C2BD57002E2EDD /* AllTeamNamesJSON.json */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 		ED4B34D519AE7DD500FF635F = {
@@ -229,10 +255,10 @@
 		ED96B88019BFFE7400CC5398 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
+				ED143D7619C159DB002E2EDD /* Fixtures */,
 				ED143D6019C1285A002E2EDD /* ViewControllers */,
 				ED143D6319C12883002E2EDD /* Models */,
 				ED143D6219C12878002E2EDD /* Services */,
-				ED96B88619BFFE7400CC5398 /* ExampleSpec.mm */,
 				ED96B88819BFFE7400CC5398 /* Rakefile */,
 				ED96B88119BFFE7400CC5398 /* Supporting Files */,
 			);
@@ -320,6 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED143D8E19C2BD70002E2EDD /* AllTeamNamesJSON.json in Resources */,
+				ED143D8619C2B743002E2EDD /* ScheduleJSON.json in Resources */,
+				ED143D7F19C2B49A002E2EDD /* TopTeamsJSON.json in Resources */,
 				EDAF699F19AEC96A002A65FA /* Main.storyboard in Resources */,
 				ED4B34EC19AE7DD500FF635F /* InfoPlist.strings in Resources */,
 				ED4B34F419AE7DD500FF635F /* Images.xcassets in Resources */,
@@ -330,7 +359,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED143D8119C2B586002E2EDD /* ScheduleJSON.json in Resources */,
+				ED143D7819C15A28002E2EDD /* TopTeamsJSON.json in Resources */,
 				ED96B88519BFFE7400CC5398 /* InfoPlist.strings in Resources */,
+				ED143D8D19C2BD57002E2EDD /* AllTeamNamesJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +438,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED96B88719BFFE7400CC5398 /* ExampleSpec.mm in Sources */,
+				ED143D8519C2B6A7002E2EDD /* ScheduleServiceParserSpec.mm in Sources */,
+				ED143D7E19C15D0F002E2EDD /* TopTeamServiceParserSpec.mm in Sources */,
+				ED143D8819C2BB05002E2EDD /* AllTeamNamesServiceParserSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,69 @@
+{
+    "id":"FBS",
+    "name":"I-A",
+    "conferences":[
+                   {
+                   "id":"ACC",
+                   "name":"ACC",
+                   "subdivisions":[
+                                   {
+                                   "id":"ACC-ATLANTIC",
+                                   "name":"ATLANTIC",
+                                   "teams":[
+                                            {
+                                            "id":"LOU",
+                                            "name":"Cardinals",
+                                            "market":"Louisville",
+                                            "venue":{
+                                            "id":"e0947a41-9e85-488e-bcb3-6682dd56283e",
+                                            "country":"USA",
+                                            "name":"Papa John's Cardinal Stadium",
+                                            "city":"Louisville",
+                                            "state":"KY",
+                                            "capacity":55000,
+                                            "surface":"artificial",
+                                            "type":"outdoor",
+                                            "zip":"40209",
+                                            "address":"2800 S Floyd St"
+                                            }
+                                            },
+                                            {
+                                            "id":"WF",
+                                            "name":"Demon Deacons",
+                                            "market":"Wake Forest",
+                                            "venue":{
+                                            "id":"7b816db3-a203-4b08-a060-d80e190067c9",
+                                            "country":"USA",
+                                            "name":"BB&T Field",
+                                            "city":"Winston-Salem",
+                                            "state":"NC",
+                                            "capacity":31500,
+                                            "surface":"artificial",
+                                            "type":"outdoor",
+                                            "zip":"27105",
+                                            "address":"411 Deacon Blvd"
+                                            }
+                                            },
+                                            {  
+                                            "id":"BC",
+                                            "name":"Eagles",
+                                            "market":"Boston College",
+                                            "venue":{  
+                                            "id":"3835030a-1535-431c-b64c-8da813255c06",
+                                            "country":"USA",
+                                            "name":"Alumni Stadium",
+                                            "city":"Chestnut Hill",
+                                            "state":"MA",
+                                            "capacity":44500,
+                                            "surface":"artificial",
+                                            "type":"outdoor",
+                                            "zip":"02467",
+                                            "address":"140 Commonwealth Ave."
+                                            }
+                                            }
+                                            ]
+                                   }
+                                   ]
+                   }
+        ]
+}
